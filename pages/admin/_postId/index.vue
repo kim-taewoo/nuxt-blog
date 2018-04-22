@@ -11,7 +11,7 @@ import AdminPostForm from '@/components/Admin/AdminPostForm'
 import axios from 'axios';
 
 export default {
-  layout: 'admin',
+  // layout: 'admin',
 
   components: {
     AdminPostForm
@@ -47,4 +47,6 @@ export default {
     width: 500px;
   }
 }
+
+
 </style>

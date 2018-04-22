@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="admin-new-post-page">
     <section class="new-post-form">
-      <AdminPostForm @submit="onSubmitted"></AdminPostForm>
+      <AdminPostForm @submit="onSubmitted" />
     </section>
   </div>
 </template>
@@ -11,7 +11,7 @@
   import axios from 'axios'
 
   export default {
-    layout: 'admin',
+    // layout: 'admin',
 
     components: {
       AdminPostForm
@@ -39,4 +39,5 @@ margin: 20px auto;
   width: 500px;
 }
 }
+
 </style>

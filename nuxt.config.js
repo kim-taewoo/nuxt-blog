@@ -22,7 +22,7 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: 'blue', height:'4px', duration: 5000 },
+  loading: { color: 'white', height:'4px', duration: 5000 },
   // loadingIndicator: {
   //   name: 'circle',
   //   color: '#fa923f'
@@ -47,8 +47,12 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/axios'
   ],
-
+  // axios: {
+  //   baseURL: process.env.BASE_URL || 'https://nuxt-blog-tw.firebaseio.com',
+  //   credentilas: false
+  // }
   /*
   ** Build configuration
   */

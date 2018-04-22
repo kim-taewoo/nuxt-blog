@@ -22,6 +22,7 @@
 </template>
 
 <script>
+
 export default {
   name: "TheSidenav",
   props: {
@@ -29,7 +30,7 @@ export default {
       type: Boolean,
       default: false
     }
-  }
+  },
 };
 </script>
 

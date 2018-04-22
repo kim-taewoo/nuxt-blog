@@ -21,6 +21,14 @@ export default {
     return {
       displaySidenav: false
     }
+  },
+  mounted() {
+    let self = this;
+    window.addEventListener('keyup', function(event) {
+      if (event.key == "Escape") {
+        self.displaySidenav = false
+      }
+    })
   }
 }
 </script>
